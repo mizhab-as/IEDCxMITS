@@ -3,8 +3,8 @@
 @theme {
   --color-accent: #A81C1C;
   --color-navy: #0F2D4A;
-  /* Compromise opacity: cards readable but background still shows through */
-  --color-paper: rgba(253, 251, 247, 0.75);
+  /* More see-through cards with readable text - 60% opacity */
+  --color-paper: rgba(253, 251, 247, 0.60);
 }
 
 body {
