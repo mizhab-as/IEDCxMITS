@@ -3,11 +3,17 @@
 @theme {
   --color-accent: #A81C1C;
   --color-navy: #0F2D4A;
-  --color-paper: #FDFBF7;
+  /* Make paper color transparent to let the background image shine through */
+  --color-paper: rgba(253, 251, 247, 0.88);
 }
 
 body {
-  background-color: var(--color-paper);
+  /* Set fixed background image with a soft tint overlay for text legibility */
+  background-image: linear-gradient(rgba(253, 251, 247, 0.4), rgba(253, 251, 247, 0.4)), url('/1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--color-navy);
   font-family: 'Plus Jakarta Sans', sans-serif;
   overflow-x: hidden;
@@ -81,12 +87,14 @@ body {
   }
 }
 
-/* Premium Card hover styles */
+/* Premium Card hover styles with backdrop blur glassmorphism */
 .hover-lift {
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(8px);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .hover-lift:hover {
   transform: translateY(-6px);
+  background-color: rgba(253, 251, 247, 0.95);
   box-shadow: 0 12px 30px -10px rgba(15, 45, 74, 0.15);
 }
