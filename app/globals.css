@@ -3,8 +3,8 @@
 @theme {
   --color-accent: #A81C1C;
   --color-navy: #0F2D4A;
-  /* High transparency for theme sections and elements */
-  --color-paper: rgba(253, 251, 247, 0.55);
+  /* Solid card backing - less transparent so cards read clearly over background */
+  --color-paper: rgba(253, 251, 247, 0.88);
 }
 
 body {
@@ -89,7 +89,7 @@ body {
 
 /* Premium Card hover styles with backdrop blur glassmorphism */
 .hover-lift {
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(6px);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
