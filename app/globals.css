@@ -3,8 +3,8 @@
 @theme {
   --color-accent: #A81C1C;
   --color-navy: #0F2D4A;
-  /* Solid card backing - less transparent so cards read clearly over background */
-  --color-paper: rgba(253, 251, 247, 0.88);
+  /* Compromise opacity: cards readable but background still shows through */
+  --color-paper: rgba(253, 251, 247, 0.75);
 }
 
 body {
