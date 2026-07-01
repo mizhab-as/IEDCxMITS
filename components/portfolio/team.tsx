@@ -41,7 +41,7 @@ export default function Team() {
       name: "Dr. Bibin Jose",
       role: "Nodal Officer",
       dept: "Dept of Electrical & Electronics Engineering",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/dr-bibin-jose-60ab89b8",
       bio: "Provides administrative guidance, policy formulation, and direct liaison with the Kerala Startup Mission (KSUM) to secure institutional support and funding opportunities for MITS innovators.",
       initials: "BJ"
     },
@@ -49,7 +49,7 @@ export default function Team() {
       name: "Dr. Arunkant A Jose",
       role: "Nodal Officer",
       dept: "Dept of Computer Science & Engineering",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/arunkantajose",
       bio: "Guides technological research, software commercialization, and incubation pipelines, ensuring student projects meet state startup standards and industrial viability benchmarks.",
       initials: "AJ"
     },
@@ -57,7 +57,7 @@ export default function Team() {
       name: "Dr. Prathibha Sudhakaran",
       role: "Nodal Officer",
       dept: "Dept of Civil Engineering",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/dr-prathibha-s-4761b267",
       bio: "Oversees community expansion, structural planning, and multidisciplinary design initiatives to promote a collaborative entrepreneurship culture across all departments.",
       initials: "PS"
     }
@@ -68,14 +68,14 @@ export default function Team() {
     {
       name: "Bhavana Vijeesh",
       role: "Chief Executive Officer",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/bhavna-vijeesh",
       bio: "Drives the strategic vision, institutional partnerships, and executive roadmap for IEDC MITS, leading all student cells toward incubation excellence.",
       initials: "BV"
     },
     {
       name: "Aditya R Menon",
       role: "Chief Operating Officer",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://www.linkedin.com/in/aditya-r-menon-446344291",
       bio: "Manages day-to-day operations, task coordination across cells, and ensures efficient execution of bootcamps, hackathons, and venture milestones.",
       initials: "AM"
     }
@@ -91,14 +91,14 @@ export default function Team() {
         {
           name: "Adil Junaid",
           role: "Chief Financial Officer",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/adil-junaid-40841b32a",
           bio: "Oversees financial planning, budget allocations, compliance reporting, and micro-grant disbursement for active student startups.",
           initials: "AJ"
         },
         {
           name: "Fathima Zuhara P",
           role: "Chief Financial Officer",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/fathima-zuhara-p-b89b2237a",
           bio: "Coordinates accounts auditing, sponsorship acquisitions, and direct institutional funding compliance reports for the center.",
           initials: "FZ"
         }
@@ -112,14 +112,14 @@ export default function Team() {
         {
           name: "Mizhab A S",
           role: "Lead Developer",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/mizhab-as",
           bio: "Coordinates technical project pipelines, builds internal software tools, and leads code audits for student-run digital products.",
           initials: "MS"
         },
         {
           name: "Hathim Mohammed",
           role: "Technical Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/hathim-mohammed-rafeeque-aa7814327",
           bio: "Assists technical teams with system architecture design, database setups, and API configurations for incubation projects.",
           initials: "HM"
         }
@@ -133,21 +133,21 @@ export default function Team() {
         {
           name: "Benett Bobby",
           role: "Lead Operations",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/benett-bobby-849290271",
           bio: "Orchestrates event logistics, room allocations, scheduling grids, and speaker relations for flagship workshops.",
           initials: "BB"
         },
         {
           name: "Christia Regi",
           role: "Operations Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/christia-regi-08069a32a",
           bio: "Coordinates operational logistics and material supplies to maintain workflow continuity during bootcamps.",
           initials: "CR"
         },
         {
           name: "Achal Sai Krishna",
           role: "Operations Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/achal-sai-krishna",
           bio: "Assists with logistical tracking, volunteer rosters, and post-event analysis grids.",
           initials: "AK"
         }
@@ -161,21 +161,21 @@ export default function Team() {
         {
           name: "Ashwin R",
           role: "Lead Startup",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/ashwin-r-a58025350",
           bio: "Helps student teams with initial market research, business plans, and pitching strategies for seed funding.",
           initials: "AR"
         },
         {
           name: "M Soorya Narayan",
           role: "Startup Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/m-soorya-narayan-a1488a335",
           bio: "Connects early-stage startups with incubation resources, mentorship pools, and legal advice.",
           initials: "SN"
         },
         {
           name: "Jaganath Joshy",
           role: "Startup Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/jaganath-joshy-8913a637b",
           bio: "Assists with ideation workshops and pitch decks for KSUM pitching rounds.",
           initials: "JJ"
         }
@@ -189,21 +189,21 @@ export default function Team() {
         {
           name: "Elaina Sara Sabu",
           role: "Lead Creative",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/elaina-sara-sabu-9932b7319",
           bio: "Drives visual brand guidelines, UI layouts, and primary design structures for all marketing brochures and platforms.",
           initials: "ES"
         },
         {
           name: "Aljo Benny",
           role: "Creative Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/aljo-benny-250430380",
           bio: "Creates illustration vectors, custom graphics, and event banner designs.",
           initials: "AB"
         },
         {
           name: "Harsha Esmayil",
           role: "Creative Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/harsha-esmayil",
           bio: "Designs user interfaces, slide layouts, and print assets for flagship events.",
           initials: "HE"
         }
@@ -217,7 +217,7 @@ export default function Team() {
         {
           name: "Abdul Hazim Rafeeq",
           role: "Lead Marketing",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/abdul-hazim-894b48375",
           bio: "Orchestrates public relations, corporate sponsor relations, and event broadcast campaigns.",
           initials: "AR"
         },
@@ -231,7 +231,7 @@ export default function Team() {
         {
           name: "Hafeez Mohammed",
           role: "Marketing Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/hafeez-mohamed-b33166284",
           bio: "Manages campus outreach networks, newsletter distribution, and PR releases.",
           initials: "HM"
         }
@@ -245,21 +245,21 @@ export default function Team() {
         {
           name: "M V Tanishi",
           role: "Lead IPR & Research",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/tanishi-m-195071365",
           bio: "Coordinates research papers audits, patent filing guides, and intellectual property eligibility checks.",
           initials: "MT"
         },
         {
           name: "Ananthakrishnan A D",
           role: "IPR Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/ananthakrishnan-a-d-201907261",
           bio: "Assists with intellectual property workshops, search reviews, and case study documentation.",
           initials: "AD"
         },
         {
           name: "Aleena Benny",
           role: "IPR Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/aleena-benny-776500328",
           bio: "Guides student developers in documenting patents and copyright claims.",
           initials: "AB"
         }
@@ -273,21 +273,21 @@ export default function Team() {
         {
           name: "Mebin K Sebin",
           role: "Lead Community",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/mebinks",
           bio: "Directs developer relations, inter-college club collaborations, and manages developer communities.",
           initials: "MS"
         },
         {
           name: "Madhav S Krishna",
           role: "Community Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/madhav-s-krishna",
           bio: "Coordinates cohort workshops, developer forums, and open-source contributions.",
           initials: "MK"
         },
         {
           name: "Mahathi Nagesh",
           role: "Community Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/mahathi-nagesh",
           bio: "Maintains communications with cohort communities, and maps feedback grids.",
           initials: "MN"
         }
@@ -308,14 +308,14 @@ export default function Team() {
         {
           name: "Safeena KS",
           role: "Women Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/safeena-k-s-782547328",
           bio: "Coordinates networking meetups and skill bootcamps for female innovators.",
           initials: "SK"
         },
         {
           name: "Erine Anna Binu",
           role: "Women Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/erine-anna-binu-9a436531b",
           bio: "Assists with community outreach for female startup programs and workshops.",
           initials: "EB"
         }
@@ -329,21 +329,21 @@ export default function Team() {
         {
           name: "Varghese Jibu",
           role: "Media Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/varghesejibu",
           bio: "Coordinates event photography campaigns, video editing pipelines, and promotional video releases.",
           initials: "VJ"
         },
         {
           name: "Athul Sabarish",
           role: "Media Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/athul-sabarish-98b6231b3",
           bio: "Manages event documentation, archives, and live stream setups.",
           initials: "AS"
         },
         {
           name: "Ashik Binoy",
           role: "Media Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/ashik-binoy-946a51380",
           bio: "Directs digital photography, archives, and event coverage schedules.",
           initials: "AB"
         }
@@ -357,14 +357,14 @@ export default function Team() {
         {
           name: "Neha Binoy",
           role: "Documentation Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/neha-binoy-2n00b5",
           bio: "Writes institutional reports, KSUM audit logs, and meeting minutes.",
           initials: "NB"
         },
         {
           name: "Meera G Thayyil",
           role: "Documentation Lead",
-          linkedin: "https://linkedin.com",
+          linkedin: "https://www.linkedin.com/in/meera-g-thayil-162088328",
           bio: "Coordinates documentation templates and event data reports.",
           initials: "MT"
         }
