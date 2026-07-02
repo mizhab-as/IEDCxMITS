@@ -44,7 +44,8 @@ export default function Team() {
       dept: "Dept of Electrical & Electronics Engineering",
       linkedin: "https://www.linkedin.com/in/dr-bibin-jose-60ab89b8",
       bio: "Provides administrative guidance, policy formulation, and direct liaison with the Kerala Startup Mission (KSUM) to secure institutional support and funding opportunities for MITS innovators.",
-      initials: "BJ"
+      initials: "BJ",
+      image: "/images/team/dr_bibin_jose.jpg"
     },
     {
       name: "Dr. Arunkant A Jose",
@@ -60,7 +61,8 @@ export default function Team() {
       dept: "Dept of Civil Engineering",
       linkedin: "https://www.linkedin.com/in/dr-prathibha-s-4761b267",
       bio: "Oversees community expansion, structural planning, and multidisciplinary design initiatives to promote a collaborative entrepreneurship culture across all departments.",
-      initials: "PS"
+      initials: "PS",
+      image: "/images/team/dr_prathibha_sudhakaran.jpg"
     }
   ];
 
@@ -472,7 +474,15 @@ export default function Team() {
             >
               <div className="relative w-36 h-36 mb-6">
                 <div className="w-full h-full rounded-full bg-navy/5 flex items-center justify-center overflow-hidden border border-navy/10 group-hover:scale-105 transition-transform duration-300">
-                  {renderUserSilhouette("w-20 h-20")}
+                  {officer.image ? (
+                    <img 
+                      src={officer.image} 
+                      alt={officer.name} 
+                      className="w-full h-full object-cover object-center"
+                    />
+                  ) : (
+                    renderUserSilhouette("w-20 h-20")
+                  )}
                 </div>
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-8 h-8 bg-[#0077b5] text-white rounded-full flex items-center justify-center border-2 border-paper shadow-md">
                   {renderLinkedinIcon("w-4 h-4")}
