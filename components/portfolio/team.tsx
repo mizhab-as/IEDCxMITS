@@ -205,7 +205,8 @@ export default function Team() {
           role: "Lead Creative",
           linkedin: "https://www.linkedin.com/in/elaina-sara-sabu-9932b7319",
           bio: "Drives visual brand guidelines, UI layouts, and primary design structures for all marketing brochures and platforms.",
-          initials: "ES"
+          initials: "ES",
+          image: "/images/team/elaina_sara_sabu.jpg"
         },
         {
           name: "Aljo Benny",
@@ -219,7 +220,8 @@ export default function Team() {
           role: "Creative Lead",
           linkedin: "https://www.linkedin.com/in/harsha-esmayil",
           bio: "Designs user interfaces, slide layouts, and print assets for flagship events.",
-          initials: "HE"
+          initials: "HE",
+          image: "/images/team/harsha_esmayil.jpg"
         }
       ]
     },
@@ -240,14 +242,16 @@ export default function Team() {
           role: "Marketing Lead",
           linkedin: "https://linkedin.com",
           bio: "Coordinates social media channels, posting calendars, and target audience outreach campaigns.",
-          initials: "SA"
+          initials: "SA",
+          image: "/images/team/samuel_abraham.jpg"
         },
         {
           name: "Hafeez Mohammed",
           role: "Marketing Lead",
           linkedin: "https://www.linkedin.com/in/hafeez-mohamed-b33166284",
           bio: "Manages campus outreach networks, newsletter distribution, and PR releases.",
-          initials: "HM"
+          initials: "HM",
+          image: "/images/team/hafeez_mohammed.jpg"
         }
       ]
     },
