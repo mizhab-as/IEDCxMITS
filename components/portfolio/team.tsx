@@ -73,14 +73,16 @@ export default function Team() {
       role: "Chief Executive Officer",
       linkedin: "https://www.linkedin.com/in/bhavna-vijeesh",
       bio: "Drives the strategic vision, institutional partnerships, and executive roadmap for IEDC MITS, leading all student cells toward incubation excellence.",
-      initials: "BV"
+      initials: "BV",
+      image: "/images/team/bhavana_vijeesh.jpg"
     },
     {
       name: "Aditya R Menon",
       role: "Chief Operating Officer",
       linkedin: "https://www.linkedin.com/in/aditya-r-menon-446344291",
       bio: "Manages day-to-day operations, task coordination across cells, and ensures efficient execution of bootcamps, hackathons, and venture milestones.",
-      initials: "AM"
+      initials: "AM",
+      image: "/images/team/aditya_r_menon.jpg"
     }
   ];
 
@@ -580,7 +582,15 @@ export default function Team() {
                   {/* Profile Circular Silhouette */}
                   <div className={`relative ${size.imgContainer} mb-4`}>
                     <div className="w-full h-full rounded-full bg-navy/5 flex items-center justify-center overflow-hidden border border-navy/10 group-hover:scale-105 transition-transform duration-300">
-                      {renderUserSilhouette(size.imgSilhouette)}
+                      {member.image ? (
+                        <img 
+                          src={member.image} 
+                          alt={member.name} 
+                          className="w-full h-full object-cover object-center"
+                        />
+                      ) : (
+                        renderUserSilhouette(size.imgSilhouette)
+                      )}
                     </div>
                     <div className={`absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 ${size.linkedinBadge} bg-[#0077b5] text-white rounded-full flex items-center justify-center border-2 border-paper shadow-sm`}>
                       {renderLinkedinIcon(size.linkedinIcon)}
