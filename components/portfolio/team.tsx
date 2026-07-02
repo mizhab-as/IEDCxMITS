@@ -144,7 +144,8 @@ export default function Team() {
           role: "Lead Operations",
           linkedin: "https://www.linkedin.com/in/benett-bobby-849290271",
           bio: "Orchestrates event logistics, room allocations, scheduling grids, and speaker relations for flagship workshops.",
-          initials: "BB"
+          initials: "BB",
+          image: "/images/team/benett_bobby.jpg"
         },
         {
           name: "Christia Regi",
@@ -158,7 +159,8 @@ export default function Team() {
           role: "Operations Lead",
           linkedin: "https://www.linkedin.com/in/achal-sai-krishna",
           bio: "Assists with logistical tracking, volunteer rosters, and post-event analysis grids.",
-          initials: "AK"
+          initials: "AK",
+          image: "/images/team/achal_sai_krishna.jpg"
         }
       ]
     },
@@ -172,21 +174,24 @@ export default function Team() {
           role: "Lead Startup",
           linkedin: "https://www.linkedin.com/in/ashwin-r-a58025350",
           bio: "Helps student teams with initial market research, business plans, and pitching strategies for seed funding.",
-          initials: "AR"
+          initials: "AR",
+          image: "/images/team/ashwin_r.jpg"
         },
         {
           name: "M Soorya Narayan",
           role: "Startup Lead",
           linkedin: "https://www.linkedin.com/in/m-soorya-narayan-a1488a335",
           bio: "Connects early-stage startups with incubation resources, mentorship pools, and legal advice.",
-          initials: "SN"
+          initials: "SN",
+          image: "/images/team/m_soorya_narayan.png"
         },
         {
           name: "Jaganath Joshy",
           role: "Startup Lead",
           linkedin: "https://www.linkedin.com/in/jaganath-joshy-8913a637b",
           bio: "Assists with ideation workshops and pitch decks for KSUM pitching rounds.",
-          initials: "JJ"
+          initials: "JJ",
+          image: "/images/team/jaganath_joshy.jpg"
         }
       ]
     },
