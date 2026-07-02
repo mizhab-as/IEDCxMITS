@@ -98,14 +98,16 @@ export default function Team() {
           role: "Chief Financial Officer",
           linkedin: "https://www.linkedin.com/in/adil-junaid-40841b32a",
           bio: "Oversees financial planning, budget allocations, compliance reporting, and micro-grant disbursement for active student startups.",
-          initials: "AJ"
+          initials: "AJ",
+          image: "/images/team/adil_junaid.jpg"
         },
         {
           name: "Fathima Zuhara P",
           role: "Chief Financial Officer",
           linkedin: "https://www.linkedin.com/in/fathima-zuhara-p-b89b2237a",
           bio: "Coordinates accounts auditing, sponsorship acquisitions, and direct institutional funding compliance reports for the center.",
-          initials: "FZ"
+          initials: "FZ",
+          image: "/images/team/fathima_zuhara_p.jpg"
         }
       ]
     },
@@ -119,14 +121,16 @@ export default function Team() {
           role: "Lead Developer",
           linkedin: "https://www.linkedin.com/in/mizhab-as",
           bio: "Coordinates technical project pipelines, builds internal software tools, and leads code audits for student-run digital products.",
-          initials: "MS"
+          initials: "MS",
+          image: "/images/team/mizhab_a_s.jpg"
         },
         {
           name: "Hathim Mohammed",
           role: "Technical Lead",
           linkedin: "https://www.linkedin.com/in/hathim-mohammed-rafeeque-aa7814327",
           bio: "Assists technical teams with system architecture design, database setups, and API configurations for incubation projects.",
-          initials: "HM"
+          initials: "HM",
+          image: "/images/team/hathim_mohammed.jpg"
         }
       ]
     },
