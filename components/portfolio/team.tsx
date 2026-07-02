@@ -9,6 +9,7 @@ interface Member {
   linkedin: string;
   bio?: string;
   initials?: string;
+  image?: string;
 }
 
 interface Department {
