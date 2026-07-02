@@ -272,14 +272,16 @@ export default function Team() {
           role: "IPR Lead",
           linkedin: "https://www.linkedin.com/in/ananthakrishnan-a-d-201907261",
           bio: "Assists with intellectual property workshops, search reviews, and case study documentation.",
-          initials: "AD"
+          initials: "AD",
+          image: "/images/team/ananthakrishnan_a_d.jpg"
         },
         {
           name: "Aleena Benny",
           role: "IPR Lead",
           linkedin: "https://www.linkedin.com/in/aleena-benny-776500328",
           bio: "Guides student developers in documenting patents and copyright claims.",
-          initials: "AB"
+          initials: "AB",
+          image: "/images/team/aleena_benny.jpg"
         }
       ]
     },
@@ -293,21 +295,24 @@ export default function Team() {
           role: "Lead Community",
           linkedin: "https://www.linkedin.com/in/mebinks",
           bio: "Directs developer relations, inter-college club collaborations, and manages developer communities.",
-          initials: "MS"
+          initials: "MS",
+          image: "/images/team/mebin_k_sebin.jpg"
         },
         {
           name: "Madhav S Krishna",
           role: "Community Lead",
           linkedin: "https://www.linkedin.com/in/madhav-s-krishna",
           bio: "Coordinates cohort workshops, developer forums, and open-source contributions.",
-          initials: "MK"
+          initials: "MK",
+          image: "/images/team/madhav_s_krishna.jpg"
         },
         {
           name: "Mahathi Nagesh",
           role: "Community Lead",
           linkedin: "https://www.linkedin.com/in/mahathi-nagesh",
           bio: "Maintains communications with cohort communities, and maps feedback grids.",
-          initials: "MN"
+          initials: "MN",
+          image: "/images/team/mahathi_nagesh.jpg"
         }
       ]
     },
