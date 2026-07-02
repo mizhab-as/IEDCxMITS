@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AGM images and temporary inspection tools
+AGM/
+public/inspect.html
+public/temp_images/
+
