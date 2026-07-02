@@ -326,21 +326,24 @@ export default function Team() {
           role: "Lead Women in Innovation",
           linkedin: "https://linkedin.com",
           bio: "Fosters female leadership initiatives, specialized women founder cohorts, and mentorship panels.",
-          initials: "GR"
+          initials: "GR",
+          image: "/images/team/gouri_rajagopal.jpg"
         },
         {
           name: "Safeena KS",
           role: "Women Lead",
           linkedin: "https://www.linkedin.com/in/safeena-k-s-782547328",
           bio: "Coordinates networking meetups and skill bootcamps for female innovators.",
-          initials: "SK"
+          initials: "SK",
+          image: "/images/team/safeena_ks.png"
         },
         {
           name: "Erine Anna Binu",
           role: "Women Lead",
           linkedin: "https://www.linkedin.com/in/erine-anna-binu-9a436531b",
           bio: "Assists with community outreach for female startup programs and workshops.",
-          initials: "EB"
+          initials: "EB",
+          image: "/images/team/erine_anna_binu.jpg"
         }
       ]
     },
@@ -354,21 +357,24 @@ export default function Team() {
           role: "Media Lead",
           linkedin: "https://www.linkedin.com/in/varghesejibu",
           bio: "Coordinates event photography campaigns, video editing pipelines, and promotional video releases.",
-          initials: "VJ"
+          initials: "VJ",
+          image: "/images/team/varghese_jibu.jpg"
         },
         {
           name: "Athul Sabarish",
           role: "Media Lead",
           linkedin: "https://www.linkedin.com/in/athul-sabarish-98b6231b3",
           bio: "Manages event documentation, archives, and live stream setups.",
-          initials: "AS"
+          initials: "AS",
+          image: "/images/team/athul_sabarish.jpg"
         },
         {
           name: "Ashik Binoy",
           role: "Media Lead",
           linkedin: "https://www.linkedin.com/in/ashik-binoy-946a51380",
           bio: "Directs digital photography, archives, and event coverage schedules.",
-          initials: "AB"
+          initials: "AB",
+          image: "/images/team/ashik_binoy.png"
         }
       ]
     },
@@ -382,14 +388,16 @@ export default function Team() {
           role: "Documentation Lead",
           linkedin: "https://www.linkedin.com/in/neha-binoy-2n00b5",
           bio: "Writes institutional reports, KSUM audit logs, and meeting minutes.",
-          initials: "NB"
+          initials: "NB",
+          image: "/images/team/neha_binoy.jpg"
         },
         {
           name: "Meera G Thayyil",
           role: "Documentation Lead",
           linkedin: "https://www.linkedin.com/in/meera-g-thayil-162088328",
           bio: "Coordinates documentation templates and event data reports.",
-          initials: "MT"
+          initials: "MT",
+          image: "/images/team/meera_g_thayyil.jpg"
         }
       ]
     }
