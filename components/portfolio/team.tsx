@@ -675,7 +675,15 @@ export default function Team() {
             {/* Profile Image inside Modal (Enlarged and Hover Zoom-capable) */}
             <div className="relative w-48 h-48 mb-6 group/modal-img">
               <div className="w-full h-full rounded-full border-4 border-navy bg-navy/5 flex items-center justify-center overflow-hidden transition-transform duration-300 hover:scale-105 shadow-inner">
-                {renderUserSilhouette("w-24 h-24")}
+                {selectedMember.image ? (
+                  <img 
+                    src={selectedMember.image} 
+                    alt={selectedMember.name} 
+                    className="w-full h-full object-cover object-center"
+                  />
+                ) : (
+                  renderUserSilhouette("w-24 h-24")
+                )}
               </div>
               <a
                 href={selectedMember.linkedin}
